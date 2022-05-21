@@ -1,0 +1,7 @@
+---
+# tasks file for jenkins
+- name: Jenkins | Add Jenkins tasks
+  include_tasks: "jenkins.yaml"
+
+- name: Nginx | Add Nginx tasks
+  include_tasks: "nginx.yaml"
